@@ -41,8 +41,8 @@ defmodule Imagen do
   
   defp valida_desde_nombre_archivo(nombre) do
     {_, ancho, alto, _} = nombre
-    |> leer_imagen
-    |> ExImageInfo.info
+      |> leer_imagen
+      |> ExImageInfo.info
     {id_desde_el_nombre(nombre), nombre, ancho, alto}
   end
   

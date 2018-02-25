@@ -1,0 +1,5 @@
+%{
+  "ex_image_info": {:hex, :ex_image_info, "0.2.2", "16ae7b338cb60d4fe1f4d806dccb44a9005878ee6f178229d359ca352bd3b12a", [:mix], [], "hexpm"},
+  "flow": {:hex, :flow, "0.13.0", "7188ef047c6831ffb2f25ec0cef9bef02e7ae520632a64debdb65ae96bdc223e", [:mix], [{:gen_stage, "~> 0.13.0", [hex: :gen_stage, repo: "hexpm", optional: false]}], "hexpm"},
+  "gen_stage": {:hex, :gen_stage, "0.13.1", "edff5bca9cab22c5d03a834062515e6a1aeeb7665fb44eddae086252e39c4378", [:mix], [], "hexpm"},
+}

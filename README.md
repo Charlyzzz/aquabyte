@@ -1,21 +1,10 @@
 # DesafioImagenes
 
-**TODO: Add description**
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `desafio_imagenes` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:desafio_imagenes, "~> 0.1.0"}
-  ]
-end
+Produce el siguiente output dadas las imágenes en `imagenes`
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/desafio_imagenes](https://hexdocs.pm/desafio_imagenes).
-
+  Se encontraron las siguientes imágenes corruptas: right_31.png, right_3.png
+  La imagen con id 32 es huérfana
+  Se encontró una pareja con id 2 y distinto tamaño (1482x744 vs 1244x402)
+  Se encontró una pareja con id 1 y mismo tamaño (1482x744)
+```

@@ -27,5 +27,4 @@ defmodule Aquabyte.Janitor do
   defp reporte_para({id, grupo}), do: Imagen.reporte_para(id, grupo)
 
   defp id_imagen({id, _, _, _}), do: id
-  defp id_imagen(_), do: nil
 end

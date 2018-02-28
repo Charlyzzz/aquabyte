@@ -8,6 +8,6 @@ defmodule Aquabyte do
   end
 
   def run_janitor do
-    Genserver.call(Janitor, {:run})
+    GenServer.call(Janitor, :run)
   end
 end
